@@ -1,13 +1,13 @@
 {
-    "name": "tstl-pop-api",
-    "version": "1.0",
+    "name": "tstl-populous-api",
+    "version": "0.1.0",
     "description": "",
     "files": [
-        "dist/**/*.lua",
-        "dist/**/*.d.ts"
+        "**/*.lua",
+        "**/*.d.ts"
     ],
-    "types": "./dist/index.d.ts",
-    "main": "./dist/index",
+    "types": "./index.d.ts",
+    "main": "./index",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tstl"
@@ -16,7 +16,7 @@
         "typescript": "^5.4.2",
         "typescript-to-lua": "^1.25.1"
     },
-    "author": "Krampus1721",
+    "author": "krampus1721",
     "license": "GPL-3.0-only",
     "dependencies": {
     }
